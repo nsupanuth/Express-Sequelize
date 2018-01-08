@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.29.0"
+  },
+  "scripts": {
+    "dev": "cross-env PORT=3000 nodemon src/index.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.3"
+  }
+}
